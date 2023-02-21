@@ -12,28 +12,19 @@
 /* TOP NAVIGATION */
 
 body {
-  font-family:Verdana,  Tahoma, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   /* background-color:rgb(61, 79, 240); */
   margin:0;
-  /* background-image: url("Images/money.jpg"); */
-  /* background-color: blue; */
-  background-image: url('../Images/money.jpg');
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-
+  background-image: url("../Images/money.jpg");
+  background-color: transparent;
 }
-
-.login-form1 {
-/* background-color: #00bfff; */
-}
-
-
 .logo {
   float:left; 
   padding:0 30px; 
   margin-top: 25px;
   color:white;
 }
+
 .nav {
   /* display: inline-block; */
   position:fixed;
@@ -134,23 +125,22 @@ display: inline-block;
   display: inline-block;
   position: relative;
   height: 11px;
-  background-color:rgba(24, 11, 211, 0.144);
+  background-color:#f4f3fafd;
   width: 100%;
   top: 95px;
   /* border: 2px solid GREY; */
 }
-/* LOGIN FORM START ---------------------------------------------------------------------------------------------------*/
+/* LOGIN FORM START */
 .login-form {
   /* position: absolute; */
   width: 300px;
-  background-color:rgb(255, 255, 255,.7);
+  background-color: rgb(251, 253, 251);
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto;
-  margin-top:8%;
-  border: 1px solid green;
-  box-shadow:10px 5px 5px rgb(169, 197, 172);
-
+  margin-top:10%;
+  border: 1px solid lightgray;
+  box-shadow: rgba(99, 99, 102, 0.144);
 }
 
 h2 {
@@ -161,13 +151,12 @@ h2 {
   text-align: center;
   margin: 30px;
   font-weight: bold;
-  color: grey;
+  color: black;
 }
 
 h4 {
   padding: 5px;
   text-align: center;
-  color: grey;
 }
 
 .form-group {
@@ -181,15 +170,15 @@ h4 {
 }
 
 .form-group input {
-  width: 97%;
+  width: 100%;
   margin-top: 0px;
-  padding: 12px 00px 10px 10px;
+  padding: 10px 5px;
   margin-bottom: 20px;
   border-radius: 5px;
+  font-size:medium;
   border: 1px solid rgb(82, 247, 6);
-  background-color: rgb(210, 255, 209);
-  font-size: 14px;
-  
+  /* background-color: rgb(210, 255, 209); */
+  background-color: white;
 }
 
 button[type="submit"] {
@@ -207,7 +196,7 @@ button[type="submit"] {
 }
 
 button:hover {
-  background-color: rgb(18, 110, 22);
+  background-color: rgb(14, 245, 26);
 }
 
 .loginsignup, .loginforget {
@@ -269,5 +258,5 @@ button:hover {
   }
 
   .wfg {
-    color:green;
+    color:rgb(250, 4, 4);
   }
